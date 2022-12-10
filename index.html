@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | News homepage</title>
+  </head>
+  <body>
+    <header>
+      <a href="#">
+        <img class="logo" src="./assets/images/logo.svg" />
+      </a>
+      <nav class="nav nav-mobile">
+        <a href="#" class="nav-btn">Home</a>
+        <a href="#" class="nav-btn">New</a>
+        <a href="#" class="nav-btn">Popular</a>
+        <a href="#" class="nav-btn">Trending</a>
+        <a href="#" class="nav-btn">Categories</a>
+      </nav>
+      <div class="btn-mobile">
+        <img src="./assets/images/icon-menu.svg" alt="" class="btn-open" />
+        <img
+          src="./assets/images/icon-menu-close.svg"
+          alt=""
+          class="btn-close hidden"
+        />
+      </div>
+    </header>
+    <main>
+      <section class="hero-section">
+        <picture class="hero-img">
+          <source
+            media="(min-width:700px)"
+            srcset="./assets/images/image-web-3-desktop.jpg"
+          />
+          <img
+            class="hero-img"
+            src="./assets/images/image-web-3-mobile.jpg"
+            alt="hero image"
+          />
+        </picture>
+        <div class="hero-text">
+          <h1 class="primary-head">The Bright Future of Web 3.0?</h1>
+          <p class="text text-article">
+            We dive into the next evolution of the web that claims to put the
+            power of the platforms back into the hands of the people. But is it
+            really fulfilling its promise?
+            <button class="btn btn-article">Read more</button>
+          </p>
+        </div>
+      </section>
+
+      <aside class="aside">
+        <p class="header-aside">New</p>
+        <div class="aside-item">
+          <h2 class="secondary-head">Hydrogen VS Electric Cars</h2>
+          <p class="text text-aside-item">
+            Will hydrogen-fueled cars ever catch up to EVs?
+          </p>
+        </div>
+        <div class="aside-item">
+          <h2 class="secondary-head">The Downsides of AI Artistry</h2>
+          <p class="text text-aside-item">
+            What are the possible adverse effects of on-demand AI image
+            generation?
+          </p>
+        </div>
+        <div class="aside-item">
+          <h2 class="secondary-head">Is VC Funding Drying Up?</h2>
+          <p class="text text-aside-item">
+            Private funding by VC firms is down 50% YOY. We take a look at what
+            that means.
+          </p>
+        </div>
+      </aside>
+    </main>
+    <section class="features-box">
+      <div class="box">
+        <div>
+          <img
+            src="./assets/images/image-retro-pcs.jpg"
+            alt=""
+            class="box-img"
+          />
+        </div>
+        <div class="box-text">
+          <p class="sub-header">01</p>
+          <h3 class="tertiary-head">Reviving Retro PCs</h3>
+          <p class="text">
+            What happens when old PCs are given modern upgrades?
+          </p>
+        </div>
+      </div>
+      <div class="box">
+        <div>
+          <img
+            src="./assets/images/image-top-laptops.jpg"
+            alt=""
+            class="box-img"
+          />
+        </div>
+        <div class="box-text">
+          <p class="sub-header">02</p>
+          <h3 class="tertiary-head">Top 10 Laptops of 2022</h3>
+          <p class="text">Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="box">
+        <div>
+          <img
+            src="./assets/images/image-gaming-growth.jpg"
+            alt=""
+            class="box-img"
+          />
+        </div>
+        <div class="box-text">
+          <p class="sub-header">03</p>
+          <h3 class="tertiary-head">The Growth of Gaming</h3>
+          <p class="text">How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://linkedin.com/in/monasr1997" target="_blank"
+        >Mohamed Nasr 🙂</a
+      >.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
