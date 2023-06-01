@@ -1,6 +1,6 @@
 # Frontend Mentor - News homepage solution
 
-This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -20,30 +20,37 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 
 ### The challenge
 
-Users should be able to:
+This app can do:
 
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
-- **Bonus**: Toggle the mobile menu (requires some JavaScript)
+- View the optimal layout for the interface depending on their device's screen size.
+- See hover and focus states for all interactive elements on the page.
+- Toggle the mobile menu
 
 ### Screenshot
+
+![Screenshot for desktop design](./screenshot/desktop-design.png)
+![Screenshot for mobile design](./screenshot/mobile-design.png)
+![Screenshot for mobile-menu design](./screenshot/mobile-menu.png)
 
 ### Links
 
 - Solution URL: [GitHub](https://github.com/monasr1997/news-homepage-main)
-- Live Site URL: [live site URL](https://grand-axolotl-a35e24.netlify.app/)
+- Live Site URL: [live site URL](https://monasr1997.github.io/news-homepage-main/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
+- CSS Flexbox
 - CSS Grid
+- CSS media query
 - Mobile-first workflow
+- Java Script
 
 ### What I learned
+
+- Toggle menu by javascript
 
 ### Continued development
 
@@ -60,4 +67,5 @@ Users should be able to:
 
 ## Acknowledgments
 
-
+- [MDN web Docs](https://developer.mozilla.org/en-US/)
+- [CSS tricks](https://css-tricks.com/)
